@@ -4,5 +4,6 @@ module org.mantisph.workshopjavafx {
 
 
     opens org.mantisph.workshopjavafx to javafx.fxml;
+    opens model.entities to javafx.base;
     exports org.mantisph.workshopjavafx;
 }
