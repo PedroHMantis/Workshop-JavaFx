@@ -5,7 +5,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <VBox prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Label text="About">
@@ -20,6 +19,14 @@
          <padding>
             <Insets left="20.0" />
          </padding>
+      </Label>
+      <Label text="By Pedro Henrique Ferreira de Sousa">
+         <padding>
+            <Insets left="20.0" top="10.0" />
+         </padding>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
       </Label>
    </children>
 </VBox>
