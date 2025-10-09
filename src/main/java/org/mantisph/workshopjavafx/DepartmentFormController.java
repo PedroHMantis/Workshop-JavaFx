@@ -114,6 +114,13 @@ public class DepartmentFormController implements Initializable {
     private void initializeNodes(){
         Constraints.setTextFieldInteger(txtId);
         Constraints.setTextFieldMaxLength(txtName, 30);
+
+        // 🔹 Impede o campo ID de receber foco
+        txtId.setFocusTraversable(false);
+        txtId.setEditable(false);
+
+        // 🔹 Garante que o foco inicial vá para o campo "Name"
+        javafx.application.Platform.runLater(() -> txtName.requestFocus());
     }
 
     public void updateFormData(){
