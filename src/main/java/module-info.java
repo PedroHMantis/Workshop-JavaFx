@@ -3,6 +3,7 @@ module org.mantisph.workshopjavafx {
     requires javafx.fxml;
     requires java.sql;
     requires java.desktop;
+    requires jdk.jshell;
 
 
     opens org.mantisph.workshopjavafx to javafx.fxml;
